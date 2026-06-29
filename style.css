@@ -1,0 +1,62 @@
+body {
+  background-image: url('https://i.pinimg.com/1200x/e2/e1/aa/e2e1aaf6edfd7c276eeb283cd4732369.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f6efe7;
+  color: #3b2f2f;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+h1 {
+  font-family: 'Playfair Display', serif;
+  background-color: #6b4f3b;
+  color: white;
+  padding: 25px;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+/* Section titles */
+h2 {
+  font-family: 'Playfair Display', serif;
+  color: #5a3e2b;
+  margin-top: 30px;
+}
+
+h3 {
+  color: #6b4f3b;
+  margin-top: 20px;
+}
+
+/* Menu styling */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: white;
+  margin: 8px auto;
+  padding: 10px;
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Hover effect */
+li:hover {
+  transform: scale(1.03);
+  transition: 0.2s;
+}
+<link rel="stylesheet" href="style.css">
