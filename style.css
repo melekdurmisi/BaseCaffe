@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500&display=swap');
 
-/* Background */
+/* Background (YOUR IMAGE) */
 body {
   background-image: url('https://i.pinimg.com/1200x/e2/e1/aa/e2e1aaf6edfd7c276eeb283cd4732369.jpg');
   background-size: cover;
@@ -28,29 +28,41 @@ body::before {
   z-index: -1;
 }
 
-/* Header */
+/* Title */
 h1 {
   font-family: 'Playfair Display', serif;
   background-color: #6b4f3b;
   color: white;
   padding: 25px;
   margin: 0;
-  letter-spacing: 1px;
+}
+
+/* Layout */
+.menu-grid {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+/* Columns */
+.left, .right {
+  width: 320px;
 }
 
 /* Section titles */
 h2 {
   font-family: 'Playfair Display', serif;
   color: #5a3e2b;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 h3 {
   color: #6b4f3b;
-  margin-top: 20px;
 }
 
-/* Menu items */
+/* Items */
 ul {
   list-style: none;
   padding: 0;
@@ -60,25 +72,12 @@ li {
   background: white;
   margin: 8px auto;
   padding: 10px;
-  width: 250px;
   border-radius: 10px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   transition: 0.2s;
+  width: 260px;
 }
 
 li:hover {
   transform: scale(1.03);
-}
-
-/* Layout */
-.menu-grid {
-  display: flex;
-  justify-content: center;
-  gap: 50px;
-  flex-wrap: wrap;
-  margin-top: 20px;
-}
-
-.left, .right {
-  width: 300px;
 }
