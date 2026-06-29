@@ -69,3 +69,15 @@ li {
 li:hover {
   transform: scale(1.03);
 }
+
+.menu-grid {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.left, .right {
+  width: 300px;
+}
